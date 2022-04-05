@@ -1,0 +1,5 @@
+Install Python
+Install Django
+How to create Django Project, Apps and Do Settings
+How to Create Templates and Do Settings
+

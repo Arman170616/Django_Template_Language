@@ -1,0 +1,3 @@
+Variables look like this : {{ variable }} when the template engine encounters a variables, it evaluates that variable
+ and replaces it with the result.
+Example - {{ first_name }}

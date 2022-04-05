@@ -1,0 +1,2 @@
+Django's Template Language is designed to strike a balance between power and ease. 
+It's designed to feel comfortable to those used to working with HTML.

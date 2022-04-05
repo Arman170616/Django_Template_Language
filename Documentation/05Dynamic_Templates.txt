@@ -1,0 +1,20 @@
+from django.shortcuts import render
+
+def learn_django(request):
+	cname = "Django"
+	duration = "4Months"
+	seats = 10
+	django_details = {"nm": cname, "du": duration, "st": seats}
+	return render(request, "course/courseonehtml", django_details)
+
+
+templates/course
+
+courseone.html
+
+<html>
+	<body>
+		<h2> COurese NAme: {{nm}}, Duration : {{du}} and Total Seats : {{st}} </h2>
+	</body>
+</html>
+
