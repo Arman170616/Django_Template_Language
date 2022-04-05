@@ -7,4 +7,4 @@ def learn_django(request):
     # seats = 10
     # django_details = {'nm':cname, 'du': duration, 'st':seats}
     # return render(request, 'course/courseone.html', context=django_details)
-    return render(request, 'course/courseone.html')
+    return render(request, 'course/courseone.html', {'nm':'django is awesome'})
