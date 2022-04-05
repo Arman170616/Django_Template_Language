@@ -2,6 +2,7 @@
 Django Template Language 
 
 1.Django Template Language Requirements
+
 2.What is Django Template Language(DTL)
 3.What is Jinja2
 4.DTL Variables
