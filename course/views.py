@@ -1,4 +1,5 @@
 from django.shortcuts import render
+from datetime import datetime
 
 # Create your views here.
 def learn_django(request):
@@ -7,4 +8,5 @@ def learn_django(request):
     # seats = 10
     # django_details = {'nm':cname, 'du': duration, 'st':seats}
     # return render(request, 'course/courseone.html', context=django_details)
-    return render(request, 'course/courseone.html', {'nm':'django is awesome'})
+   d = datetime.now()
+   return render(request, 'course/courseone.html', {'dt': d})
