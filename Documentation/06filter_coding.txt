@@ -1,0 +1,46 @@
+
+
+When we need to modify variable before displaying we can use filters. 
+Pipe "|" is used to apply filter
+
+syntax: {{variable | filter}}
+Example: {{name|upper}}
+
+
+some of filter take arguments.
+
+syntax: {{variable | filter: argument}}
+Example: {{article|truncateword:40}}
+
+
+Filter can be chained.
+syntax: {{variable|filter|filter}}
+Example: {{article|upper}}
+Example: {{article|upper|truncateword:40}}
+
+Capfirst - It capitalize the first charcter of the value.
+If the first character is not a letter, this filter has no effect.
+
+Example: {{value|capfirst}}
+
+
+default - If value evaluates to False, uses the given default. Otherwise, Uses the value.
+Example: {{value|default:"nothing"}}
+If value is "" (the empty string), the output will be nothing.
+
+length - It returns the length of the value.This works for both strings and lists. The filter returns 0 for an undefined variable.
+Example: {{value|length}}
+
+lower - It converts a string into all lowercase.
+
+Example: {{value|lower}}
+
+
+date- It formats a date according to the given format.
+Example: {{value|date:"D d M Y" }}
+
+time- It formats a time according to the given format.
+Example: {{ value|time:"H:i" }} #H = Hour, i = Minutes
+
+Example: {{value|time:"TIME_FORMAT" }}
+Example: {{value|date:"SHORT_DATE_FORMAT" }}
