@@ -1,8 +1,6 @@
 
 
-![download](https://user-images.githubusercontent.com/64675035/161734199-7fe51f89-5b6c-4aef-a0ef-96a9d5d2daba.png)
-
-![download](https://user-images.githubusercontent.com/64675035/161734217-cde845b6-059a-48bf-a56f-7819eb953293.jpg)
+![download](https://user-images.githubusercontent.com/64675035/161734199-7fe51f89-5b6c-4aef-a0ef-96a9d5d2daba.png) ![download](https://user-images.githubusercontent.com/64675035/161734217-cde845b6-059a-48bf-a56f-7819eb953293.jpg)
 
 Django Template Language 
 
