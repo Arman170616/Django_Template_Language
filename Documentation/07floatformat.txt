@@ -1,0 +1,14 @@
+Float Filter
+
+when used without an argument, rounds a floating -point number to one decimal place but only if there's a decimal part to be displayed.
+  value       Template                    output
+  56.245787   {{value|floatformat}}       56.2
+
+  value       Template                  output
+  56.245787   {{value|floatformat:3}}    56.245
+
+particularly useful is passing 0(zero) as te argument which will round the float to the nearest integer.
+
+  value       Template
+  56.245787   {{value|floatformat: "0"}}
+
